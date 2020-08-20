@@ -29,7 +29,7 @@ body {
 .tabs {
   display: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 540px) {
     display: flex;
   }
 
@@ -85,8 +85,9 @@ body {
   color: black;
   border-radius: 4px;
   outline: none;
+  appearance: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 540px) {
     display: none;
   }
 
